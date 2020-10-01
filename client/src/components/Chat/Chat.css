@@ -1,0 +1,62 @@
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: orange;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 60%;
+    width: 35%;
+    position: relative;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .outerContainer {
+      height: 100%;
+    }
+  
+    .container {
+      width: 100%;
+      height: 60%;
+    }
+    .emoji{
+        width: 100%;
+      height: 100%;
+    }
+    .emojiDetail{
+        width: 100%;
+        height: 100%;
+    }
+  }
+
+  .emoji{
+    position: absolute;
+    bottom: 20px;
+    justify-content: space-between;
+    background: #FFFFFF;
+    height: 15%;
+    width: 80%;
+    overflow: scroll;
+    font-family: Helvetica;
+  }
+
+  .emojiDetail{
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  @media (min-width: 480px) and (max-width: 1200px) {
+    .container {
+      width: 60%;
+    }
+    .emoji{
+        width: 60%;
+    }
+  }
