@@ -8,16 +8,16 @@ Chatzapp is a chatting application in which you can chat with your friend using 
 
 ## Highlighted Features:
 
-1)Create and join a room and chat with friends using unknown names in real-time
-2)When everyone leaves, the group and the conversations get deleted
-3)Chat using emojis
-4)Showing which members are online...
+1) Create and join a room and chat with friends using unknown names in real-time
+2) When everyone leaves, the group and the conversations get deleted
+3) Chat using emojis
+4) Showing which members are online...
 
 SNEEK-PEEK of the technologies I used:
 
-1)ReactJs
-2)NodeJs
-3)Javascript and CSS
-4)Socket.io (for real-time chatting)
-5)Heroku (Backend Hosting)
-6)Netlify (Frontend Hosting)
+1) ReactJs
+2) NodeJs
+3) Javascript and CSS
+4) Socket.io (for real-time chatting)
+5) Heroku (Backend Hosting)
+6) Netlify (Frontend Hosting)
